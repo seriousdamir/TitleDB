@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TDB</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap1.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">TDB</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <table class="navbar-nav flex-grow-1">
+                        <tr>
+                            <td bgcolor="#F6C0FF" class="nav-item" align="center">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Головна Сторінка</a>
+                            </td>
+                            <td bgcolor="#F6C0FF" class="nav-item" align="center">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Franchaises" asp-action="Index">Франшизи</a>
+                            </td>
+                            <td bgcolor="#F6C0FF" class="nav-item" align="center">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Studios" asp-action="Index">Студії / Видавництва</a>
+                            </td>
+                            <td bgcolor="#F6C0FF" class="nav-item" align="center">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Directors" asp-action="Index">Директори</a>
+                            </td>
+                            <td bgcolor="#F6C0FF" class="nav-item" align="center">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Series" asp-action="Index">Серіали</a>
+                            </td>
+                            <td bgcolor="#F6C0FF" class="nav-item" align="center">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Films" asp-action="Index">Фільми</a>
+                            </td>
+                            <td bgcolor="#F6C0FF" class="nav-item" align="center">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Games" asp-action="Index">Ігри</a>
+                            </td>
+                            <td bgcolor="#F6C0FF" class="nav-item" align="center">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Books" asp-action="Index">Література</a>
+                            </td>
+                            <td class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="BookTypes" asp-action="Index">Типи Літератури</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#F6C0FF" class="nav-item" align="center">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Genres" asp-action="Index">Жанри</a>
+                            </td>
+                            <td bgcolor="#F6C0FF" class="nav-item" align="center">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="TitleToGenres" asp-action="Index">Тайтл-Жанр</a>
+                            </td>
+                            <td bgcolor="#F6C0FF" class="nav-item" align="center">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Characters" asp-action="Index">Персонажі</a>
+                            </td>
+                            <td bgcolor="#F6C0FF" class="nav-item" align="center">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Actings" asp-action="Index">Персонаж-Тайтл</a>
+                            </td>
+                            <td bgcolor="#F6C0FF" class="nav-item" align="center">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="VoiceActors" asp-action="Index">Актор Озвучування</a>
+                            </td>
+                            <td bgcolor="#F6C0FF" class="nav-item" align="center">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="VoiceActings" asp-action="Index">Актор-Тайтл</a>
+                            </td>
+                            <td bgcolor="#F6C0FF" class="nav-item" align="center">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Authors" asp-action="Index">Автор</a>
+                            </td>
+                            <td bgcolor="#F6C0FF" class="nav-item" align="center">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Founders" asp-action="Index">Автор-Тайтл</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2020 - TDB - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
