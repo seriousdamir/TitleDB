@@ -32,7 +32,6 @@ namespace TDB.Controllers
                 frantitle.Add(new object[] { c.Name, c.Title.Count() });
             }
             return new JsonResult(frantitle);
-            //
         }
     }
 }
