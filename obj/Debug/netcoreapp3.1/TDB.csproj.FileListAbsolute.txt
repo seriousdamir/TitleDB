@@ -158,7 +158,6 @@ C:\Users\damir\source\repos\TDB\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysi
 C:\Users\damir\source\repos\TDB\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\damir\source\repos\TDB\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\damir\source\repos\TDB\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\damir\source\repos\TDB\obj\Debug\netcoreapp3.1\TDB.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\damir\source\repos\TDB\obj\Debug\netcoreapp3.1\Razor\Views\Actings\Create.cshtml.g.cs
 C:\Users\damir\source\repos\TDB\obj\Debug\netcoreapp3.1\Razor\Views\Actings\Delete.cshtml.g.cs
 C:\Users\damir\source\repos\TDB\obj\Debug\netcoreapp3.1\Razor\Views\Actings\Details.cshtml.g.cs
@@ -244,3 +243,14 @@ C:\Users\damir\source\repos\TDB\obj\Debug\netcoreapp3.1\Razor\Views\VoiceActors\
 C:\Users\damir\source\repos\TDB\obj\Debug\netcoreapp3.1\Razor\Views\VoiceActors\Details.cshtml.g.cs
 C:\Users\damir\source\repos\TDB\obj\Debug\netcoreapp3.1\Razor\Views\VoiceActors\Edit.cshtml.g.cs
 C:\Users\damir\source\repos\TDB\obj\Debug\netcoreapp3.1\Razor\Views\VoiceActors\Index.cshtml.g.cs
+C:\Users\damir\source\repos\TDB\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\damir\source\repos\TDB\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\damir\source\repos\TDB\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\damir\source\repos\TDB\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\damir\source\repos\TDB\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\damir\source\repos\TDB\obj\Debug\netcoreapp3.1\TDB.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\damir\source\repos\TDB\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\damir\source\repos\TDB\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\damir\source\repos\TDB\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Index.cshtml.g.cs
+C:\Users\damir\source\repos\TDB\obj\Debug\netcoreapp3.1\Razor\Views\Roles\UserList.cshtml.g.cs
+C:\Users\damir\source\repos\TDB\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Edit.cshtml.g.cs
