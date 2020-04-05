@@ -5,8 +5,11 @@ using TDB.Models;
 using TDB.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+
 namespace TDB.Controllers
 {
+    [Authorize(Roles = "admin")]
 
     public class RolesController : Controller
     {

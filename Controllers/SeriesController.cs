@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using TDB;
+using Microsoft.AspNetCore.Authorization;
 
 namespace TDB.Controllers
 {
+    [Authorize(Roles = "admin, user")]
     public class SeriesController : Controller
     {
         private readonly TitleDBContext _context;

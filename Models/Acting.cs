@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace TDB
 {
-    public partial class Acting //хочу тупицы
+    public partial class Acting
     {
         public int TitleId { get; set; }
         public int CharacterId { get; set; }
